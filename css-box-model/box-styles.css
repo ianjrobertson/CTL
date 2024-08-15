@@ -1,0 +1,66 @@
+/* Each box, inline and block has four properties:
+1. Content- text,image, media content in the element. Defined in HTML
+2. Padding - The space between the box's content and its border. CSS
+3. Border - The line between the box's padding and margin. CSS
+4. Margin - The space between the box and surronding boxes. CSS
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p {
+    background-color: #DDE0E3;
+}
+
+h1 {
+    padding: 50px;
+    border-bottom: 1px solid #5D6063;
+}
+
+p {
+
+    padding: 20px 0 20px 10px;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+    /* padding: 20px 10px; Vertical, horizontal
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    */
+
+
+}
+em, strong {
+    background-color: #B2D6FF;
+    display: inline;
+}
+
+strong {
+    margin: 50px;
+}
+
+div {
+    color: #fff;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+
+    width: 200px;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+body {
+    text-align: center;
+}
+
